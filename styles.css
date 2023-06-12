@@ -1,0 +1,97 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    color: black;
+}
+img {
+    width: 100px;
+}
+
+.hero{
+    background-image: linear-gradient(to right, red , white);
+    background-size: cover;
+    margin: 0;
+    color: white;
+    padding: 6px 12px;
+    size: 800px;
+    
+}
+
+.activities{
+ background: light
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+    font-style: italic
+    
+}
+
+.indo{
+    height: 200px;
+    width: 400px;
+    border: none;
+    border-radius: 25%
+}
+
+.indo-jpg-lombok{
+    background-image: url("images/lombok-hover.png");
+    background-size: cover;
+    height: 100px;
+    border: black 1px solid;
+    border-radius: 100%;
+}
+
+.indo-jpg-mentawai{
+    background-image: url("images/mentawai-hover.png");
+    background-size: cover;
+    height: 100px;
+    border: black 1px solid;
+    border-radius: 100%;
+}
+
+.indo-jpg-gilliair{
+    background-image: url("images/gilliair-hover.png");
+    background-size: cover;
+    height: 100px;
+    border: black 1px solid;
+    border-radius: 100%;
+}
+
+.indo-jpg-lombok:hover{
+    background-image: url("images/lombok.jpeg");
+}
+
+.indo-jpg-mentawai:hover{
+    background-image: url("images/mentawai.jpeg");
+}
+
+.indo-jpg-gilliair:hover{
+    background-image: url("images/gilliair.jpeg");
+}
+
+.guide{
+    width: 400px;
+    margin: 0 auto;
+    padding: 2px;
+    border: none;
+    text-align: center;
+    background-image: linear-gradient(to right, red , white);
+    border-bottom: 2px solid red;
+}
+    
+    
